@@ -7,7 +7,7 @@ import "../styles/Eventpage.css";
 
 function EventPage() {
     let addr = "Zepp+New+Taipei,+taipei,+taiwan";
-    const mapsrc = f`https://www.google.com/maps/embed/v1/place?key=${process.env.API_key}&q=${addr}`;
+    const mapsrc = f`https://www.google.com/maps/embed/v1/place?key=${import.meta.env.VITE_API_key}&q=${addr}`;
   return (
   
     <Container maxWidth="md" sx={{ mt: 4 }}>
