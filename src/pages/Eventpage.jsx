@@ -3,7 +3,8 @@ import { Container, Card, Typography, Button, Avatar, Divider, TextField } from 
 import Grid from "@mui/material/Grid2";
 import ztmy from "../assets/ztmy.jpg";
 import "../styles/Eventpage.css";
-require('dotenv').config
+
+
 function EventPage() {
     let addr = "Zepp+New+Taipei,+taipei,+taiwan";
     const mapsrc = f`https://www.google.com/maps/embed/v1/place?key=${process.env.API_key}&q=${addr}`;
